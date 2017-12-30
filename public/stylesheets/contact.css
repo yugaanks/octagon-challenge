@@ -1,0 +1,73 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:600);
+body {
+    font-family: 'Expletus Sans', cursive;
+}
+
+.navbar-solid {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1030;
+}
+
+nav {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+}
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #ccc;
+        /*font: 25px/1 Helvetica, Verdana, sans-serif;*/
+        font-family: 'Expletus Sans', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+        li a:hover {
+            color: #666;
+        }
+
+    li.active a {
+        font-weight: bold;
+        color: #333;
+    }
+
+.container {
+    height: 100%;
+}
+#contact-form {
+    padding: 200px;
+}
+
+label {
+    display: block;
+    padding: 15px 0 5px 0;
+}
+
+#submit {
+    display: block;
+    margin-top: 10px;
+    
+}
