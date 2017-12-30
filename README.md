@@ -1,6 +1,7 @@
 ﻿# octagon challenge  
 npm install  
 npm start    
+Make sure your mongodb is running  
 2 html pages, home and contact  
 HTML, CSS, Express, MongoDB     
 #    
