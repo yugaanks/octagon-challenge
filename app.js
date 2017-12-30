@@ -8,11 +8,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var contact = require('./routes/contact');
 
 var app = express();
 
-// view engine setup
+// view engine setup // did not use the engine in this challenge
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 

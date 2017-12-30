@@ -1,0 +1,3 @@
+C:\Users\yugaa\Documents\code_pen\octagon\octagon\octagon\obj\Debug\octagon.njsprojResolveAssemblyReference.cache
+C:\Users\yugaa\Documents\code_pen\octagon\octagon\octagon\obj\Debug\octagon.njsproj.CoreCompileInputs.cache
+C:\Users\yugaa\Documents\code_pen\octagon\octagon\octagon\bin\Microsoft.NodejsTools.WebRole.dll

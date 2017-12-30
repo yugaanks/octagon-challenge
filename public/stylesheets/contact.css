@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 50px;
     z-index: 1030;
+    margin: 0px;
 }
 
 nav {
@@ -58,7 +59,11 @@ li {
     height: 100%;
 }
 #contact-form {
-    padding: 200px;
+    padding: 100px;
+    padding-bottom:60px;
+}
+footer {
+    height: 10px;
 }
 
 label {

@@ -7,14 +7,16 @@
   },
   "description": "octagon",
   "author": {
-    "name": "yugaa"
+    "name": "yugaank"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.0",
     "debug": "^2.2.0",
     "express": "^4.14.0",
+    "mongodb": "^2.2.33",
     "morgan": "^1.7.0",
+    "node-uuid": "^1.4.8",
     "pug": "^2.0.0-beta6",
     "serve-favicon": "^2.3.0"
   }

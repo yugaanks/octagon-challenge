@@ -17,7 +17,8 @@
     </div>
     <div class='container'>
         <div id="contact-form">
-            <form action="" method="post">
+            <h1>Form</h1>
+            <form action="/contact" method="post">
                 <label for="fname">First name</label>
                 <input type="text" required="required" pattern="^[A-Za-z]+$" id="fname" name="fname">
                 <label for="lname">Last name</label>
@@ -27,7 +28,7 @@
                 <label for="zipcode">Zipcode</label>
                 <input type="tel" pattern="[0-9]{5}" id="zipcode" name="zipcode">
                 <label for="select">State</label>
-                <select>
+                <select name="state">
                     <option value="null">Select State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -85,6 +86,13 @@
             </form>
         </div>
     </div>
+    <footer>
+        <ul>
+            <li>Octagon Challenge</li>
+            <li><a href="https://github.com/yugaanks/octagon-challenge">GitHub Repository</a></li>
+            <li><a href="https://www.linkedin.com/in/yugaanks">LinkedIn</a></li>
+        </ul>
+    </footer>
 
 </body>
 </html>
